@@ -21,7 +21,7 @@ editor_options:
 ```{r set_paths, include=FALSE}
 
 path_cmorized_annual <-
-  "/nfs/kryo/work/loher/CESM_output/RECCAP2/submit_June2021/"
+  "/net/kryo/work/loher/CESM_output/RECCAP2/submit_Nov2022/"
 
 ```
 
@@ -74,7 +74,7 @@ for (i_experiment_ID in experiment_IDs) {
     file <- paste(i_variable,
                   "_CESM-ETHZ_",
                   i_experiment_ID,
-                  "_1_gr_1980-2018_v20210607.nc",
+                  "_1_gr_1980-2018_v20221125.nc",
                   sep = "")
     print(file)
     
