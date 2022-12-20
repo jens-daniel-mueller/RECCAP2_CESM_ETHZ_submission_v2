@@ -64,7 +64,7 @@ The list of files and sizes of the ETHZ CESM model output refers to the content 
 
 # set path to output
 path_CESM <-
-  "/net/kryo/work/loher/CESM_output/RECCAP2/submit_June2021"
+  "/net/kryo/work/loher/CESM_output/RECCAP2/submit_Nov2022"
 path_CESM
 
 # create list of CESM output files and sizes
