@@ -23,7 +23,7 @@ editor_options:
 ```{r set_paths, include=FALSE}
 
 path_cmorized_annual <-
-  "/nfs/kryo/work/loher/CESM_output/RECCAP2/submit_June2021/"
+  "/net/kryo/work/loher/CESM_output/RECCAP2/submit_Nov2022/"
 
 ```
 
@@ -84,7 +84,7 @@ variable_data_tibble <- variable_data %>%
 rm(variable_data)
 
 variable_data_tibble %>%
-  ggplot(aes(time_ann, Atm_CO2)) +
+  ggplot(aes(time_atm_co2, Atm_CO2)) +
   geom_path() +
   geom_point()
 
